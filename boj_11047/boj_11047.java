@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class code {
+public class boj_11047 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     List<Integer> list = new ArrayList<>(); // 동전의 종류를 저장할 리스트
