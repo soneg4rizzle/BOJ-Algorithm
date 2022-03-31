@@ -15,7 +15,7 @@
 ## 소스코드
 * 메모리 : 17804 KB
 * 시간 : 340 ms
-* 
+
 ```java
 import java.util.*;
 
