@@ -95,4 +95,4 @@ list.sort(Comparator.comparing(Time::getEndTime));
 list.sort(Comparator.comparing(Time::getEndTime).thenComparing(Time::getStartTime)); 
 ```  
 ## 리뷰
-> 간단해 보이는 문제였지만, 문제의 메커니즘을 정확히 이해하지 못해 생각보다 많은 시간이 소요되었다. 문제 발생 시에 무엇보다 주목해야 할 점은 해당 상황을 정확하게 인지하고 해결해야 한다는 점임을 배울 수 이썽ㅆ다.
+> 간단해 보이는 문제였지만, 문제의 메커니즘을 정확히 이해하지 못해 생각보다 많은 시간이 소요되었다. 문제 발생 시에 무엇보다 주목해야 할 점은 해당 상황을 정확하게 인지하고 해결해야 한다는 점임을 배울 수 있었다.
