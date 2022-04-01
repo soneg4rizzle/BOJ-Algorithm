@@ -25,7 +25,7 @@ public class boj_11047 {
     int kind = sc.nextInt(); // N 종류의 동전
     int K = sc.nextInt(); // N 종류의 동전으로 만들어야하는 값
     for (int i = 0; i < kind; i++)
-      list.add(sc.nextInt()); // 동전의 종류를 모두 list에 저장.
+      list.add(sc.nextInt()); // 동전의 종류를 모두 list에 저장
 
     int index = list.size() - 1; // 가장 큰 값의 동전부터 시작
     while (K != 0) { // 가치의 합이 0이 될때까지 가치의합-동전의종류 실행
