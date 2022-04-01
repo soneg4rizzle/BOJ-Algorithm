@@ -1,4 +1,4 @@
-# BOJ_11047 : 잃어버린 괄호
+# BOJ_1541 : 잃어버린 괄호
 
 ### https://www.acmicpc.net/problem/11047
 # ![image](https://user-images.githubusercontent.com/96826443/161310739-7a86b6bc-07c5-476e-9470-1ced92f51646.png)
