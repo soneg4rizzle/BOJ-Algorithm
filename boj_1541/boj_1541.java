@@ -4,7 +4,7 @@ public class boj_1541 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     String str = sc.next();
-    Integer result = null;
+    Integer result = null; // 식의 최소값을 저장할 변수
 
     StringTokenizer minus = new StringTokenizer(str, "-");
 
