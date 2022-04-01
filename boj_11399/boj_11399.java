@@ -10,7 +10,7 @@ public class boj_11399 {
     for (int i = 0; i < N; i++) {
       arr[i] = sc.nextInt();
     }
-
+    sc.close();
     Arrays.sort(arr);
 
     int time = 0;
