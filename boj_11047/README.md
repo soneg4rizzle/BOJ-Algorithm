@@ -45,4 +45,4 @@ public class boj_1541 {
 ```
 
 ## 리뷰
-> StringTokenizer || str.split 을 이용하여 식으로부터 더하기(+) 기호와 뺄셈(-)기호를 분리하여 계산하면 간단히 풀 수 있었다.
+> StringTokenizer || str.split 을 이용하여 주어진 식으로부터 더하기(+) 기호와 뺄셈(-)기호를 분리한 후에 계산하면 간단히 풀 수 있는 문제였다.
