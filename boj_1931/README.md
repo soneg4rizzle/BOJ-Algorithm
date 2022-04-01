@@ -82,7 +82,7 @@ list.sort(Comparator.comparing(Time::getEndTime).thenComparing(Time::getStartTim
 > 또한 종료시간이 같은 경우, 시작 시간이 빠른 회의가 먼저 시작되어야 하기 때문에 종료시간을 정렬 한 후에 시작 시간을 오름차순으로 정렬해주었다.
 
 ## 오답노트
-> 처음 시도 할 때에는 종료 시간을 오름차순으로 배열하면 최대 회의의 수를 구할 수 있다고 생각했기 때문에 종료시간만을 정렬하였다.  
+> 처음 시도 할 때에는 종료 시간을 오름차순으로 배열하면 최대 회의의 수를 구할 수 있다고 생각했기 때문에 종료시간만을 정렬했다.  
 ```각 회의의 종료시간을 기준으로 오름차순 정렬하는 코드```   
 ```java
 list.sort(Comparator.comparing(Time::getEndTime));
