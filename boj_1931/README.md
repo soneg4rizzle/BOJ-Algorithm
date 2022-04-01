@@ -20,7 +20,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 import java.util.*;
 
-public class code {
+public class_1931  {
   public static class Time {
     private int start; // 회의 시작시간
     private int end; // 회의 종료시간
