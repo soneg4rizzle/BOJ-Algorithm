@@ -9,7 +9,7 @@
   * StringTokenizer를 이용하여 빼기(-) 기호가 생략된 식을 생성
   * 새롭게 생성된 식을 더하기(+) 기호를 기준으로 토큰화 진행
   * 남은 토큰이 없을 때까지 토큰들을 더해줍니다.  
-   ① result 에 아직 값이 들어오지 않은 경우 : result = sum
+   ① result 에 아직 값이 들어오지 않은 경우 : result = sum  
    ② result 에 이미 값이 들어있는 경우 : result -= sum
 
 ## 소스코드
@@ -43,3 +43,6 @@ public class boj_1541 {
   }
 }
 ```
+
+## 리뷰
+> StringTokenizer || str.split 을 이용하여 식으로부터 더하기(+) 기호와 뺄셈(-)기호를 분리하여 계산하면 간단히 풀 수 있었다.
