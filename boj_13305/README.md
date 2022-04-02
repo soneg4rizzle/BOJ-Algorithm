@@ -1,6 +1,7 @@
 # BOJ_13305 : 주유소
 
 ![image](https://user-images.githubusercontent.com/96826443/161367207-3be69ad2-cc66-4cb7-9b47-eba78b659ffb.png)
+![image](https://user-images.githubusercontent.com/96826443/161367693-33a3ad81-d864-4250-9ab7-b4a70e001956.png)
 
 ## 코드설명
 * 어떤 나라에 N개의 도시가 있다. 이 도시들은 일직선 도로 위에 존재할 때, 제일 왼쪽 도시에서 제일 오른쪽 도시로 가는 최소 비용을 출력한다.
@@ -9,8 +10,8 @@
   * 2. 가스의 가격이 이전 도시보다 비싸면 priceOfgas값을 유지한채 다음 도시로 이동
 
 ## 소스코드
-* 메모리 : 20364 KB
-* 시간 : 268 ms
+* 메모리 : 188112	KB
+* 시간 : 1160 ms
 ```java
 import java.util.*;
 
