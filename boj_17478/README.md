@@ -1,6 +1,5 @@
 # BOJ_17478: 재귀함수가 뭔가요?
 
-## 입력, 출력
 ![image](https://user-images.githubusercontent.com/96826443/176925341-84b85c4a-6bb1-4205-ab4f-80567f28cc3b.png)
 ![image](https://user-images.githubusercontent.com/96826443/176925439-23e82e8b-6c89-4b97-b2cf-0ce7236a0e2e.png)
 
@@ -51,7 +50,10 @@ public class boj_17478 {
 	}
 
 }
+```
 
-```    
+## 출력 결과
+![image](https://user-images.githubusercontent.com/96826443/176925953-6580b898-5988-4ebe-b3f6-b30df6e018d3.png)
+
 ## 리뷰
 > 간단해 보이는 문제였지만, 재귀 문제는 항상 헷갈려서 은근히 시간이 소요되는 것 같다. 이 기회에 확실하게 개념을 다 잡고 가야겠다.
