@@ -1,0 +1,57 @@
+# BOJ_17478: 재귀함수가 뭔가요?
+
+## 입력, 출력
+![image](https://user-images.githubusercontent.com/96826443/176925341-84b85c4a-6bb1-4205-ab4f-80567f28cc3b.png)
+![image](https://user-images.githubusercontent.com/96826443/176925439-23e82e8b-6c89-4b97-b2cf-0ce7236a0e2e.png)
+
+## 코드설명
+* 출력과 일치하도록 재귀 함수를 이용하여 문제를 풀어야 한다.
+    
+
+## 소스코드  
+ *메모리 : 17976 KB  
+ *시간 : 236 ms
+ 
+```java
+package BOJ_prac;
+import java.util.Scanner;
+
+public class boj_17478 {
+	static String out_line = "";
+	
+	private static void recursion(int n) {
+		String line = out_line;
+		
+		if (n > 0) {
+			System.out.println(line + "\"재귀함수가 뭔가요?\"");
+			System.out.println(line + "\"잘 들어보게. 옛날옛날 한 산 꼭대기에 이세상 모든 지식을 통달한 선인이 있었어.");
+			System.out.println(line + "마을 사람들은 모두 그 선인에게 수많은 질문을 했고, 모두 지혜롭게 대답해 주었지.");
+			System.out.println(line + "그의 답은 대부분 옳았다고 하네. 그런데 어느 날, 그 선인에게 한 선비가 찾아와서 물었어.\"");
+			
+			out_line += "____";
+		} else {
+			System.out.println(line + "\"재귀함수가 뭔가요?\"");
+			System.out.println(line + "\"재귀함수는 자기 자신을 호출하는 함수라네\"");
+			System.out.println(line + "라고 답변하였지.");
+			return;
+		}
+		recursion(n-1);
+		
+		System.out.println(line + "라고 답변하였지.");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 재귀함수가 뭔가요?
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		System.out.println("어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.");
+		recursion(n);
+	}
+
+}
+
+```    
+## 리뷰
+> 간단해 보이는 문제였지만, 재귀 문제는 항상 헷갈려서 은근히 시간이 소요되는 것 같다. 이 기회에 확실하게 개념을 다 잡고 가야겠다.
