@@ -1,4 +1,4 @@
-# 백준 7568번 : 덩치
+# 백준 1018번 : 체스판 다시 칠하기
 
 ![image](https://user-images.githubusercontent.com/96826443/177002198-3f1c5b62-481b-4a68-9c1c-c646aff6efe3.png)
 
