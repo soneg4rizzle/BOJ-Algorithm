@@ -1,4 +1,4 @@
-# 백준 14425 : 나는야 포켓몬 마스터 이다솜
+# 백준 1620 : 나는야 포켓몬 마스터 이다솜
 
 ![image](https://user-images.githubusercontent.com/96826443/177008944-4ef6cbb0-bc3d-4602-9093-291fd3c880c1.png)
 
