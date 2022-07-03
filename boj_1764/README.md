@@ -8,7 +8,7 @@
 > Collections.sort 메소드를 이용하여 리스트를 오름차순 정렬 후 값을 출력한다.  
 
 ## 소스코드
-![image](https://user-images.githubusercontent.com/96826443/177034135-cfab7bc8-f6cd-44ed-9825-9e4cb0214726.png)
+![image](https://user-images.githubusercontent.com/96826443/177036627-d41f49ae-b15d-44ed-898d-f17a7ba529be.png)
 
 ```java
 package BOJ_prac;
