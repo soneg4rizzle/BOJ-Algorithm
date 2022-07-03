@@ -8,7 +8,7 @@
 > 최종적으로 (A 합집합 B) - 2 * (A 교집합 B) 의 값을 도출 해 낸다.
 
 ## 소스코드
-![image](https://user-images.githubusercontent.com/96826443/177036627-d41f49ae-b15d-44ed-898d-f17a7ba529be.png)
+![image](https://user-images.githubusercontent.com/96826443/177037076-31bb85e0-dd5c-4d92-85ba-184d80e3fa8c.png)
 
 ```java
 package BOJ_prac;
