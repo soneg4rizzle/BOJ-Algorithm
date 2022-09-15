@@ -1,5 +1,6 @@
 # 백준 2477 :참외밭
 
+![image](https://user-images.githubusercontent.com/96826443/190326165-2e8e5046-19e7-4f6e-b2f3-ed245d903270.png)
 
 ## 코드설명
 > for-loop 을 통해 입력받은 변들을 리스트에 저장한다.  
@@ -8,6 +9,7 @@
 > 빈 공간을 무시하고 구한 최대 농장 넓이에 빈 농장 넓이를 뺀 후에 K(1제곱미터 당 참외의 개수)를 곱해준다.
 
 ## 소스코드
+![image](https://user-images.githubusercontent.com/96826443/190326198-0ac914e6-6715-437f-8c5c-017d0f6840be.png)
 
 ```java
 package BOJ_prac;
